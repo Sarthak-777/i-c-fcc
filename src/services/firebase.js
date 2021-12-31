@@ -1,5 +1,3 @@
-import { ListItemIcon } from "@material-ui/core";
-import { CompareSharp } from "@material-ui/icons";
 import { firebase, FieldValue } from "../lib/firebase";
 
 export async function doesUsernameExist(username) {
